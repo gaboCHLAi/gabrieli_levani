@@ -168,3 +168,78 @@ nav{
 .logo2{
     width:400px !important;
 }
+
+
+#sagnebi{
+    background-color: #e84c3d;
+    color: white;
+    text-align: center;
+}
+
+.math{
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+
+#math{
+    width: 550px;
+    height: 350px;
+}
+
+#math-col{
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.physic{
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+
+#physic-col{
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+#physic{
+    width: 550px;
+    height: 350px;
+}
+
+.chemistry{
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+
+#chemistry{
+    width: 550px;
+    height: 350px;
+}
+
+#chemistry-col{
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.biology{
+    width: auto;
+    height: 350px;
+    position: relative;
+}
+
+#biology-col{
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+#biology{
+    width: 550px;
+    height: 350px;
+}
