@@ -11,8 +11,8 @@ html,body{
 	font-size: 25px;
 }
 a:hover {
-	 color:   #e84c3d !important;
-	 transition: 1s;
+	 color:   #e2695e !important;
+	 transition: 0.5s;
 }
 .collapse{
     justify-content: flex-end;
@@ -20,8 +20,12 @@ a:hover {
 .navbar-brand{
     font-family:'montserrat' ,sans-serif;
     font-size:38px;
-    color:  #e84c3d !important;
+    color:  #e2695e !important;
 
+}
+.bologverdi{
+    background-color: #f3f3f3;;font-size: 20px;font-family: sans-serif;
+    height: 100px; text-align: center;
 }
 .bg-feri{
 	color:#767676;
@@ -163,15 +167,15 @@ nav.navbar.scrolled {
     }
 }
 nav{
-    font-size: 18px;
+    font-size: 18px; 
 }
 .logo2{
     width:400px !important;
 }
-
+ 
 
 #sagnebi{
-    background-color: #e84c3d;
+    background-color: #e2695e;
     color: white;
     text-align: center;
 }
@@ -242,4 +246,21 @@ nav{
 #biology{
     width: 550px;
     height: 350px;
+    padding-bottom: 30px;
 }
+.head_title{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    color: #333b46;
+
+}
+.saparetor5{
+    border-bottom: 3px solid #898989;
+    overflow: hidden;
+    padding: 2px 0px;
+    width: 10%;
+    margin-bottom: 20px;
+    margin: auto;
+}
+ 
