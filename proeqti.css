@@ -180,6 +180,77 @@ nav{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
+#mathstyle:link{
+    color: white;
+}
+
+#mathstyle:visited{
+    color: white;
+}
+
+#mathstyle:hover{
+    color: rgb(30, 103, 212);
+}
+
+#mathstyle:active{
+    color: rgb(30, 103, 212);
+}
+
+
+#physicstyle:link{
+    color: white;
+}
+
+#physicstyle:visited{
+    color: white;
+}
+
+#physicstyle:hover{
+    color: rgb(30, 103, 212);
+}
+
+#physicstyle:active{
+    color: rgb(30, 103, 212);
+}
+
+
+#chemistrystyle:link{
+    color: white;
+}
+
+#chemistrystyle:visited{
+    color: white;
+}
+
+#chemistrystyle:hover{
+    color: rgb(30, 103, 212);
+}
+
+#chemistrystyle:active{
+    color: rgb(30, 103, 212);
+}
+
+
+#biologystyle:link{
+    color: white;
+}
+
+#biologystyle:visited{
+    color: white;
+}
+
+#biologystyle:hover{
+    color: rgb(30, 103, 212);
+}
+
+#biologystyle:active{
+    color: rgb(30, 103, 212);
+}
+
 .math{
     width: auto;
     height: 350px;
