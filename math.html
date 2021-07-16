@@ -5,9 +5,102 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" type="text/css" href="proeqti.css">
+
         <title>მათემატიკის ფორმულები</title>
+
+        <style>
+            *{
+                margin: 16px;
+                padding: 0;
+            }
+
+            body{
+                background-image: url(math2.jpg);
+                color: white;
+            }
+
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 30px;
+            }
+
+            .button{
+                height: 40px; 
+                border-radius: 8px;padding-left: 10px;
+                padding-right: 10px; 
+            }
+
+            .shedegi{
+                font-size: 18px;
+            }
+        </style>
     </head>
     <body>
-        <h1 style="font-size: larger;">გვერდი მალე დაემატება</h1>
+        <!-- <h1 style="font-size: larger;">გვერდი მალე დაემატება</h1> -->
+
+            <h1>მათემატიკის ფორმულები</h1>
+    
+            <div class="conteiner">
+                <div class="row">
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <!-- სამკუთხედის ფართობი-->
+                        <h3>სამკუთხედის ფართობის გამოთვლა</h3>
+                        <label for="sFudze">შემოიტანეთ სამკუთხედის ფუძის სიგრძე:</label>
+                        <input type="number" style="width: 50px;" id="sFudze">
+                        <br>
+                        <label for="sSimagle">შემოიტანეთ სამკუთხედის სიმაღლე:</label>
+                        <input type="number" style="width: 50px;" id="sSimagle">
+                        <br>
+                        <button onclick="samkutxedisFartobi()" class="button">სამკუთხედის ფართობის გამოთვლა</button>
+                        <br>
+                        <p id="samkutxedisFartobisShedegi" class="shedegi"></p>
+                    </div>
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <!-- ტრაპეციის ფართობი -->
+                        <h3>ტრაპეციის ფართობის გამოთვლა</h3>
+                        <label for="tShuaXazi">შემოიტანეთ ტრაპეციის შუა ხაზის სიგრძე</label>
+                        <input type="number" style="width: 50px;" id="tShuaXazi">
+                        <br>
+                        <label for="tSimagle">შემოიტანეთ ტრაპეციის სიმაღლე</label>
+                        <input type="number" style="width: 50px;" id="tSimagle">
+                        <br>
+                        <button onclick="trapeciisFartobi()" class="button">ტარპეციის ფართობის გამოთვლა</button>
+                        <br>
+                        <p id="trapeciisFartobisShedegi" class="shedegi"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <!-- პროცენტის პოვნა -->
+                        <h3>რიცხვის პროცენტის პოვნა</h3>
+                        <p>შემოიტანეთ სასურველი რიცხვი და პროცენტის ნაწილიც, რომელთა დაანგარიშებაც გსურთ.</p>
+                        <button onclick="procentisGamotvla()" class="button">პროცენტის დაანგარიშება</button>
+                        <p id="procenti" class="shedegi"></p>
+                    </div>
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <!-- რიცხვიდან კვადრატული ფესვის ამოღება -->
+                        <h3>რიცხვიდან კვადრატული ფესვის ამოღება</h3>
+                        <p>შემოიტანეთ რიცხვი, რომლის არითმეტიკული კვადრატული ფესვის პოვნაც გსურთ.</p>
+                        <button onclick="kvadratuliFesvi()" class="button">კვადრატული ფესვის პოვნა</button>
+                        <p id="kvadratuliFesvi" class="shedegi"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <!-- რიცხვიდან კუბური ფესვის პოვნა -->
+                        <h3>რიცხვიდან კუბური ფესვის ამოღება</h3>
+                        <p>შემოიტანეთ რიცხვი, რომლის კუბური ფესვის პოვნაც გსურთ.</p>
+                        <button onclick="kuburiFesvi()" class="button">კუბური ფესვის პოვნა</button>
+                        <p id="kuburiFesvi" class="shedegi"></p>
+                    </div>
+                    <div class="col-6 col-sm-5 col-sm-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi ab qui facilis cumque tenetur fugiat repellendus, sunt sequi laboriosam, accusantium exercitationem at delectus atque nostrum eum quos veritatis quis!</p>
+                    </div>
+                </div>
+            </div>
+
+
+        <script src="math.js"></script>
     </body>
 </html>
