@@ -23,6 +23,12 @@ a:hover {
     color:  #e2695e !important;
 
 }
+.school{
+    font-family: 'Roboto Mediam';
+    font-weight: 500;
+    font-size: 2.5rem;
+    color:  #333b46;
+}
 .centri{
    font-family: 'Roboto Mediam';
     font-weight: 500;
