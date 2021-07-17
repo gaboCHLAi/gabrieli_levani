@@ -30,10 +30,10 @@
           ფორმულები
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">მათემატიკა</a>
-          <a class="dropdown-item" href="#">ქიმია</a>
-          <a class="dropdown-item" href="#">ფიზიკა</a>
-          <a class="dropdown-item" href="#">ბიოლოგია</a>
+          <a class="dropdown-item" href="math.html">მათემატიკა</a>
+          <a class="dropdown-item" href="chemistry.html">ქიმია</a>
+          <a class="dropdown-item" href="physic.html">ფიზიკა</a>
+          <a class="dropdown-item" href="biology.html">ბიოლოგია</a>
         </div>
       </li>
     </ul>
@@ -70,76 +70,96 @@
    <div class="container-fluid">
          <div class="row">
             <div class="text-center">
-            <h2 style="text-align:center;" >What we do</h2>
+            <h2  class="what" >What we do</h2>
             <div class="separetor3"></div>
             <p style="font-size: 20px; font-family: sans-serif;">რომელი საგნის არჩევა გსურთ?</p>
             </div>
       </div>
-   <div class="conteiner">
-     <div class="row  ">
-       <div class="col-6-xl col-xs-12 math ">        
-         <img src="math.jpg" alt="math" usemap="#mathmap" id="math"style="width: 420px;" >
+    </div>
+   <div class="container">
+     <div class="row ">
+       <div class="col-xl-6 col-12 math d-none d-md-block">        
+         <img src="math.jpg" alt="math" usemap="#mathmap" id="math">
 
          <map name="mathmap">
            <area shape="rect" coords="0, 0, 350, 550" href="math.html" alt="mathpage">
          </map>
        </div>
-       <div class="col-6  " id="math-col">
+       <div class="col-xl-6 col-12 " id="math-col">
          <strong>მათემატიკა</strong>
          <p>მათემატიკის ფორმულები</p>
        </div>
-     </div>
-     <br>
-     <br>
-      
-       <div class="col-6 physic " id="physic-col">
-         <strong>ფიზიკა</strong>
-         <p>ფიზიკის ფორმულები</p>
-       </div>
-       <div class="col-6  ">
-         <img src="physic.jpg" alt="physic" usemap="#physicmap" id="physic" style="width: 420px;">
+       <div class="col-xl-6 col-12 math d-block d-md-none">        
+         <img src="math.jpg" alt="math" usemap="#mathmap" id="math" >
 
-         <map name="physicmap">
-           <area shape="rect" coords="0, 0, 350, 550" href="physic.html" alt="physicpage">
+         <map name="mathmap">
+           <area shape="rect" coords="0, 0, 350, 550" href="math.html" alt="mathpage">
          </map>
        </div>
       
-     <br>
-     <br>
-     <div class="row chemistry">
-       <div class="col-6  ">
-         <img src="chemistry.jpg" alt="chemistry" usemap="#chemisrtymap" id="chemistry"style="width: 420px;">
+       <div class="col-xl-6 col-12  " id="physic-col">
+         <strong>ფიზიკა</strong>
+         <p>ფიზიკის ფორმულები</p>
+       </div>
+      <div class="col-xl-6 col-12 physic d-none d-md-block">
+         <img src="physic.jpg" alt="physic" usemap="#physicmap" id="physic">
+          <map name="physicmap">
+           <area shape="rect" coords="0, 0, 350, 550" href="physic.html" alt="physicpage">
+         </map>
+       </div>
+      <div class="col-xl-6 col-12 physic d-block d-md-none">
+          <img src="physic.jpg" alt="physic" usemap="#physicmap" id="physic" >
+          <map name="physicmap">
+           <area shape="rect" coords="0, 0, 350, 550" href="physic.html" alt="physicpage">
+         </map>
+      </div>
+      </div>
+      </div>
+      <div class="container"> 
+     <div class="row ">
+       <div class=" col-xl-6 col-12 chemistry d-none d-md-block">
+         <img src="chemistry.jpg" alt="chemistry" usemap="#chemistrymap" id="chemistry">
 
          <map name="chemistrymap">
            <area shape="rect" coords="0, 0, 350, 550" href="chemistry.html" alt="chemistrypage">
          </map>
        </div>
-       <div class="col-6  " id="chemistry-col">
+       <div class=" col-xl-6 col-12" id="chemistry-col">
          <strong>ქიმია</strong>
          <p>ქიმიის ფორმულები</p>
        </div>
-     </div>
-     <br>
-     <br>
-     <div class="row biology">
-       <div class="col-6  " id="biology-col">
+       <div class="col-xl-6 col-12 chemistry d-block d-md-none">        
+         <img src="chemistry.jpg" alt="chemistry" usemap="#chemistrymap" id="chemistry"> 
+
+          <map name="chemistrymap ">
+          <area shape="rect" coords="0, 0, 350, 550" href="chemistry.html" alt="chemistrypage">
+          </map>
+       </div>
+      <div class="col-xl-6 col-12  "  id="biology-col">
          <strong>ბიოლოგია</strong>
          <p>ბიოლოგიის ფორმულები</p>
        </div>
-       <div class="col-6  ">
+      <div class="col-xl-6 col-12 biology d-none d-md-block" >
          <img src="biology.jpg" alt="biology" usemap="#biologymap" id="biology">
-
-         <map name="biologymap">
+          <map name="biologymap">
            <area shape="rect" coords="0, 0, 350, 550" href="biology.html" alt="biologypage">
          </map>
        </div>
+      <div class="col-xl-6 col-12 biology d-block d-md-none">
+          <img src="biology.jpg" alt="biology" usemap="#biology" id="biology">
+          <map name="physicmap">
+           <area shape="rect" coords="0, 0, 350, 550" href="biology.html" alt="biologypage">
+         </map>
+      </div>
      </div>
    </div>
+    
+    
  </section>
- <div class="container-fluid " style="padding-top: 50px;">
+ <div class="container-fluid">
    <div class="row">
-     <div class="col bologverdi  ">
-      <h2 class=" head_title">OUR BEST SERVICE</h2>
+     <div class="col bologverdi  " style="padding-top: 20px;" >
+      <h2 class=" head_title">Levani Zukakishvili, Gabriel Chlaidze and Nika Chlaidze.</h2>
       <div class="separetor5"></div>
      </div>
    </div>
