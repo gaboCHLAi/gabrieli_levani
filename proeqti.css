@@ -23,6 +23,12 @@ a:hover {
     color:  #e2695e !important;
 
 }
+.centri{
+   font-family: 'Roboto Mediam';
+    font-weight: 500;
+    font-size: 2.5rem;
+    color:  #333b46;
+}
 .bologverdi{
     background-color: #f3f3f3;;font-size: 20px;font-family: sans-serif;
     height: 100px; text-align: center;
@@ -37,17 +43,22 @@ a:hover {
     width: 10%;
     margin-bottom: 20px;
 }
+img#math{
+    margin: auto;
+    display: block;
+}
 .about{
 	max-width: 455px;
     line-height: 2.5rem;
     font-size: 1.9rem;
     font-family: opensans;
 }
-h2{
+.what{
 	font-family: 'Roboto Mediam';
     font-weight: 500;
     font-size: 2.5rem;
-    color: #333b46;
+    color: white;
+    padding-top: 50px;
 }
 .p{
 	padding-left: 100px;
@@ -252,13 +263,14 @@ a{
 }
 
 .math{
-    width: auto;
+    /*width: auto;*/
     height: 350px;
     position: relative;
+
 }
 
 #math{
-    width: 550px;
+    width:450px;
     height: 350px;
 }
 
@@ -269,7 +281,7 @@ a{
 }
 
 .physic{
-    width: auto;
+     
     height: 350px;
     position: relative;
 }
@@ -281,19 +293,20 @@ a{
 }
 
 #physic{
-    width: 550px;
-    height: 350px;
+    
+     width: 450px;
+     height: 350px;
 }
 
 .chemistry{
-    width: auto;
+      
     height: 350px;
     position: relative;
 }
 
 #chemistry{
-    width: 550px;
-    height: 350px;
+     width:450px;
+     height: 350px;
 }
 
 #chemistry-col{
@@ -303,7 +316,7 @@ a{
 }
 
 .biology{
-    width: auto;
+     
     height: 350px;
     position: relative;
 }
@@ -315,7 +328,7 @@ a{
 }
 
 #biology{
-    width: 550px;
+    width: 450px;
     height: 350px;
     padding-bottom: 30px;
 }
